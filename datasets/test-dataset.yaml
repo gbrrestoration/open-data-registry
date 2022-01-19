@@ -1,0 +1,35 @@
+Name: Test RRAP-IS Dataset
+Description: This is a test dataset which is used to demonstrate how metadata can be transformed into a basic registry.
+Documentation: https://github.com/awslabs/open-data-registry
+Contact: peter.baker122@csiro.au
+ManagedBy: RRAP-IS
+UpdateFrequency: Never
+Tags:
+  - coral 
+  - COTS 
+  - RCP
+License: Free to use however desired
+Citation: Peter Baker
+Resources:
+  - Description: This is a file which contains some data
+    ARN: arn:aws:s3:::rrap-storage-bucket/datasets/test-dataset/
+    Region: ap-southeast-2
+    Type: S3 Bucket
+#    Explore: null
+#DataAtWork:
+#  Tutorials:
+#    - Title:
+#      URL:
+#      AuthorName:
+#      AuthorURL:
+#      Services:
+#  Tools & Applications:
+#    - Title:
+#      URL:
+#      AuthorName:
+#      AuthorURL:
+#  Publications:
+#    - Title:
+#      URL:
+#      AuthorName:
+#      AuthorURL:
