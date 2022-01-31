@@ -1,0 +1,18 @@
+Citation: Peter Baker 2022
+Contact: peter.baker122@csiro.au
+Description: A test geojson file used to demonstrate the json schema and open data
+  registry combination
+Documentation: https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026
+License: Refer to ASGS license https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026
+ManagedBy: RRAP
+Name: ABS geojson test
+Resources:
+- ARN: arn:aws:s3:::rrap-storage-bucket/ABS_ASGS_ed3_SA2_tas.geojson
+  Description: A test geojson file uploaded to demonstrate S3 capabilities.
+  Explore:
+  - Used as described here (fake) https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026
+  Region: ap-southeast-2
+  Type: S3 Bucket
+Tags:
+- ASGS
+UpdateFrequency: Roughly annually
