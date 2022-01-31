@@ -1,0 +1,16 @@
+Name: Test dataset downloaded
+Description: This is a test dataset which was downloaded directly as a yaml file
+Documentation: https://some.com
+Contact: "Peter Baker "
+ManagedBy: Pete Baker
+UpdateFrequency: Monthly
+Tags:
+  - Test
+License: Free to use
+Citation: Peter Baker 2022
+Resources:
+  - Description: Test aws bucket
+    ARN: arn:aws:s3:::rrap-storage-bucket/
+    Region: ap-southeast-2
+    Type: S3 Bucket
+    Explore: []
