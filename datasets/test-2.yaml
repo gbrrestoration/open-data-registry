@@ -1,0 +1,19 @@
+Name: Some dataset name
+Description: This is an awesome dataset
+Documentation: https://some.fake.url.com
+Contact: Peter Baker peter.baker122@csiro.au
+ManagedBy: Peter Baker peter.baker122@csiro.au
+UpdateFrequency: Never updated
+Tags:
+  - Test
+  - RCP4
+  - Other Tag
+License: Free to use
+Citation: Peter Baker 2022
+Resources:
+  - Description: Dataset
+    ARN: arn:aws:s3:::storagebucket
+    Region: ap-southeast-2
+    Type: S3 Bucket
+    Explore:
+      - Used in this example https://fake.com
